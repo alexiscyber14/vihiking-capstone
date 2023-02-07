@@ -36,9 +36,11 @@ li {
   list-style: none;
   font-family: 'Poppns', sans-serif;
 }
-.top-bar{
+
+.top-bar {
   display: none;
 }
+
 header {
   top: 0;
   background-color: rgba(235, 235, 235, 0.849);
@@ -268,7 +270,7 @@ footer .liner .line-one {
 /* style featured program section */
 #content2 {
   padding: 4%;
-  background-color:#faf9f9;
+  background-color: #faf9f9;
 }
 
 #content2 .liner {
@@ -453,24 +455,46 @@ footer {
     list-style: none;
     font-family: 'Poppns', sans-serif;
   }
-  .top-bar{
+
+  .top-bar {
     background-color: rgb(68, 68, 68);
-    padding:5px;
+    padding: 5px;
     display: flex;
     margin-left: -5px;
     flex-direction: row-reverse;
     padding-right: 20%;
-    }.top-bar li{
-        margin-left: 10px;
-        color: white;
-        font-family: 'Poppins', sans-serif;
-        font-size: 14px;
-        text-transform: capitalize;
+  }
 
-    }.top-bar li a{
-        margin-left: 20px;
-        color: white;
-    }
+  ul li {
+    margin-top: 0;
+    font-size: 16px;
+    margin-left: 5%;
+    width: auto;
+    font-weight: lighter;
+    padding-bottom: 0;
+    border: none;
+    text-align: center;
+  }
+
+  .top-bar li {
+    margin-left: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+
+  ul li a {
+    color: rgb(65, 65, 65);
+    margin-left: 10px;
+    font-weight: lighter;
+  }
+
+  .top-bar li a {
+    margin-left: 20px;
+    color: white;
+  }
+
   header {
     position: fixed;
     width: 100%;
@@ -491,12 +515,6 @@ footer {
     font-weight: bold;
     text-align: right;
     padding-left: 10%;
-  }
-
-  ul li a {
-    color: rgb(65, 65, 65);
-    margin-left: 10px;
-    font-weight: lighter;
   }
 
   .button-low h4 a {
@@ -526,6 +544,10 @@ footer {
   .card-img img {
     height: 50px;
     width: 50px;
+  }
+
+  .footer-partners img {
+    width: 90%;
   }
 
   header nav .logo img {
@@ -565,17 +587,6 @@ footer {
     margin-left: 10%;
     align-items: flex-start;
     width: 100%;
-  }
-
-  ul li {
-    margin-top: 0;
-    font-size: 16px;
-    margin-left: 5%;
-    width: auto;
-    font-weight: lighter;
-    padding-bottom: 0;
-    border: none;
-    text-align: center;
   }
 
   ul li a:hover {
@@ -682,6 +693,13 @@ footer {
     font-weight: 300;
   }
 
+  footer .wrap .liner h3 {
+    font-size: 25px;
+    margin-bottom: 0.5%;
+    font-weight: 300;
+    color: rgb(172, 170, 170);
+  }
+
   #content1 .liner h3 {
     font-size: 16px;
     margin-bottom: 0%;
@@ -771,7 +789,7 @@ footer {
   /* style featured program section */
   #content2 {
     padding: 4%;
-    background-color:#d3d3d3;
+    background-color: #d3d3d3;
   }
 
   #content2 .liner {
@@ -875,24 +893,18 @@ footer {
     margin-top: 0%;
     padding: 4%;
     display: flex;
-    background-color:#f1f1f1;
+    background-color: #f1f1f1;
     flex-direction: column;
     align-items: center;
   }
-  footer .wrap .liner h3 {
-    font-size: 25px;
-    margin-bottom: 0.5%;
-    font-weight: 300;
-    color: rgb(172, 170, 170);
-  }
-  .footer-partners{
-    padding:0% 10%;
+
+  .footer-partners {
+    padding: 0% 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
-}.footer-partners img{
-    width:90%;
-}
+  }
+
   .footer-wrapper .copyright {
     display: flex;
     text-align: left;
