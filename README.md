@@ -39,11 +39,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [Capstone] <a name="about-project"></a>
 
 <!--Describe your project in 1 or 2 sentences.-->
 
-**[Portfolio]** is an ongoing project based on an individual's portfolio design ideas.
+**[Capstone]** is an ongoing project based on an a real work environment project you may be asked to work on.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -95,7 +95,7 @@
 <details>
   <summary>Visit webpage</summary>
   <ul>
-    <li><a href="https://alexiscyber14.github.io/portfolio/">Click here to view the webpage of this repository</a></li>
+    <li><a href="https://alexiscyber14.github.io/vihiking-capstone/">Click here to view the webpage of this repository</a></li>
   </ul>
 </details>
 
@@ -158,10 +158,6 @@ Heroku, Railway, Github, and any host of your choice
 - GitHub: [@alexiscyber14](https://github.com/alexiscyber14)
 - LinkedIn: [LinkedIn](linkedin.com/in/alex-ssenyondo-107056259)
 
-**Author2**
-
-- GitHub: [@AmineD931](https://github.com/AmineDerbal)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -209,7 +205,7 @@ I would like to thank...
 
 - **[Is teh link to clone the project free??]**
 
-  - [Yes it is. Follow the link to access this project<a href="https://github.com/alexiscyber14/Hello-world">https://github.com/alexiscyber14/Hello-world</a>]
+  - [Yes it is. Follow the link to access this project<a href="https://github.com/alexiscyber14/vihiking-capstone">https://github.com/alexiscyber14/vihiking-capstone</a>]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
