@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 2f0c83b1cd589833ea5150c1efee3b4acdb8ddd0 alexiscyber14 <142sledgehammer14@gmail.com> 1675715364 +0100	branch: Created from refs/remotes/origin/feature
+2f0c83b1cd589833ea5150c1efee3b4acdb8ddd0 b511f94212d015c2b88fc009cfd78de1946311ce alexiscyber14 <142sledgehammer14@gmail.com> 1675763722 +0100	commit: Add clean css
+b511f94212d015c2b88fc009cfd78de1946311ce da3ec9d253773ba584a9db4fe00e80764ca95dba alexiscyber14 <142sledgehammer14@gmail.com> 1675774618 +0100	commit: correct css linters
+da3ec9d253773ba584a9db4fe00e80764ca95dba 7480a11eb0070872644394045b8430c66238931f alexiscyber14 <142sledgehammer14@gmail.com> 1675774751 +0100	commit: Add javascript linter error fix
+7480a11eb0070872644394045b8430c66238931f 045a800461f60d41b976c20ce13dd95b8be334d7 alexiscyber14 <142sledgehammer14@gmail.com> 1675775226 +0100	commit: Add reame file
+045a800461f60d41b976c20ce13dd95b8be334d7 1514818f242068ee4dfa1e3b359f94a84ae702ee alexiscyber14 <142sledgehammer14@gmail.com> 1675792875 +0100	commit: Correct design errors

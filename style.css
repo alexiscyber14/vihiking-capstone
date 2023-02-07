@@ -1,0 +1,919 @@
+
+:root {
+  --main-rafius: 5px;
+  --main-padding: 5px;
+}
+
+body {
+  margin: 0% 0%;
+  background-color: rgba(255, 255, 255, 0.26);
+  background-image: url('downhil.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Poppns', sans-serif;
+}
+
+li {
+  list-style: none;
+  font-family: 'Poppns', sans-serif;
+}
+.top-bar{
+  display: none;
+}
+header {
+  top: 0;
+  background-color: rgba(235, 235, 235, 0.849);
+  padding: 1%;
+}
+
+header nav {
+  display: flex;
+}
+
+.card-img img {
+  height: 50px;
+  width: 50px;
+}
+
+header nav .logo img {
+  display: none;
+  height: 40px;
+  float: right;
+  width: 40px;
+  margin-top: -5px;
+}
+
+header nav .logo {
+  font-size: 30px;
+  padding-left: 3%;
+}
+
+nav .ul {
+  display: block;
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(88, 88, 88, 0.822);
+  width: 100%;
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  transition: 1s ease;
+}
+
+nav .ul .fa-times {
+  float: right;
+  margin-right: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+ul li {
+  margin-top: 30px;
+  font-size: 20px;
+  width: 80%;
+  padding-bottom: 10px;
+  text-align: left;
+  border-bottom: 2px solid rgb(226, 226, 226);
+}
+
+ul li a {
+  color: white;
+  margin-left: 15px;
+}
+
+.left-button {
+  display: none;
+}
+
+.active {
+  color: orangered;
+}
+
+/* style the introduction section */
+main {
+  height: auto;
+  display: flex;
+  background-color: rgba(235, 235, 235, 0.849);
+  flex-direction: column;
+  padding: 5%;
+}
+
+main .main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+main .main-content .main-first-p {
+  color: orangered;
+}
+
+main .main-content h1 {
+  color: orangered;
+  margin-bottom: 2%;
+}
+
+.tito {
+  display: none;
+}
+
+main .main-content .main-second-p {
+  box-shadow: 2px 0 4px 2px white;
+  font-size: 70%;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+main .main-content .main-date {
+  font-weight: 900;
+}
+
+main .main-content .main-address {
+  font-size: 70%;
+  margin-bottom: 15%;
+}
+
+/* end introduction section  style */
+
+/* style the programs section */
+#content1 {
+  background-image: url('pattern_bg.png');
+  background-repeat: repeat;
+  background-color: rgb(24, 23, 23);
+  padding: 4%;
+}
+
+footer .liner {
+  display: flex;
+  padding-top: 5%;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  height: auto;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+#content1 .liner {
+  display: flex;
+  flex-direction: column;
+  color: rgb(211, 210, 210);
+  text-align: center;
+  height: auto;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+footer .liner h3 {
+  font-size: 16px;
+  margin-bottom: 2%;
+  font-weight: 300;
+}
+
+#content1 .liner h3 {
+  font-size: 16px;
+  margin-bottom: 2%;
+  font-weight: 300;
+}
+
+footer .liner .line-one {
+  height: 2px;
+  background-color: rgb(194, 54, 4);
+  width: 10%;
+}
+
+#content1 .liner .line-one {
+  height: 2px;
+  background-color: rgb(194, 54, 4);
+  width: 10%;
+}
+
+.contain-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contain-wrapper .card {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  background-color: rgba(105, 104, 104, 0.685);
+  align-items: center;
+  margin-top: 2%;
+  padding: 5% 2%;
+}
+
+.card-title {
+  color: rgb(233, 65, 4);
+  font-weight: bolder;
+  font-size: 110%;
+  font-family: 'Poppins', sans-serif;
+  padding: 2%;
+  width: 50%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.card-description {
+  padding-left: 2%;
+  font-size: 80%;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(252, 252, 252, 0.829);
+}
+
+.button-low {
+  margin-top: 5%;
+  padding: 5%;
+}
+
+.button-low h4 {
+  text-align: center;
+}
+
+.button-low h4 a {
+  color: rgb(228, 228, 228);
+  background-color: #ff4925;
+  padding: 7% 5%;
+  font-family: 300;
+}
+
+/* end program section style */
+
+/* style featured program section */
+#content2 {
+  padding: 4%;
+  background-color:#faf9f9;
+}
+
+#content2 .liner {
+  display: flex;
+  flex-direction: column;
+  color: rgb(22, 22, 22);
+  text-align: center;
+  height: auto;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+#content2 .liner h3 {
+  font-size: 16px;
+  margin-bottom: 2%;
+  font-weight: 300;
+}
+
+#content2 .liner .line-one {
+  height: 2px;
+  background-color: rgb(194, 54, 4);
+  width: 10%;
+}
+
+.wrapper-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper-2 .card {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.wrapper-2 .card .guide-image {
+  width: 30%;
+  height: inherit;
+  padding: 2%;
+}
+
+.wrapper-2 .card .guide-image img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper-2 .guide-details {
+  width: 70%;
+}
+
+.wrapper-2 .guide-details h4 {
+  font-size: 15px;
+}
+
+.wrapper-2 .guide-details span {
+  color: #ff4925;
+  font-size: 13px;
+}
+
+.wrapper-2 .guide-details .mine-act {
+  font-size: 12px;
+  margin-top: 2%;
+}
+
+.guide-details .line-two {
+  margin-top: 3px;
+  overflow: hidden;
+  height: 2px;
+  width: 7%;
+  color: rgb(174, 174, 174);
+  background-color: rgb(176, 176, 176);
+}
+
+.bottoms-button {
+  display: flex;
+  margin-top: 15%;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.bottoms-button button {
+  width: 100%;
+  border: 1px solid grey;
+  background-color: white;
+  padding: 2% 5%;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+.bottoms-button button i {
+  color: #ff4925;
+  font-weight: bold;
+  margin-left: 1%;
+  font-size: 19px;
+}
+
+/* end featured programs style */
+
+/* footer styling */
+footer {
+  display: none;
+  background-color: rgb(34, 34, 34);
+}
+
+.wrap {
+  background-color: rgba(15, 15, 15, 0.705);
+}
+
+.footer-wrapper {
+  margin-top: 25%;
+  padding: 4%;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-wrapper .copyright {
+  display: flex;
+  text-align: left;
+  align-content: center;
+  flex-direction: row;
+}
+
+.footer-wrapper .copyright p {
+  padding: 4%;
+}
+
+.footer-wrapper .copyright .rights {
+  font-size: 12px;
+}
+
+.footer-wrapper .copyright .at {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+/* end footer styling */
+
+/* Desktop design */
+@media only screen and (min-width: 768px) {
+  :root {
+    --main-rafius: 5px;
+    --main-padding: 5px;
+  }
+
+  body {
+    margin: 0% 0%;
+    background-color: rgba(255, 255, 255, 0.26);
+    background-image: url('downhil.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1,
+  h3,
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Poppns', sans-serif;
+  }
+
+  li {
+    list-style: none;
+    font-family: 'Poppns', sans-serif;
+  }
+  .top-bar{
+    background-color: rgb(68, 68, 68);
+    padding:5px;
+    display: flex;
+    margin-left: -5px;
+    flex-direction: row-reverse;
+    padding-right: 20%;
+    }.top-bar li{
+        margin-left: 10px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-transform: capitalize;
+
+    }.top-bar li a{
+        margin-left: 20px;
+        color: white;
+    }
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 0.2%;
+    box-shadow: 2px 2px  8px grey;
+  }
+
+  header nav {
+    display: flex;
+  }
+
+  header nav .logo {
+    font-size: 30px;
+    width: auto;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 10%;
+  }
+
+  ul li a {
+    color: rgb(65, 65, 65);
+    margin-left: 10px;
+    font-weight: lighter;
+  }
+
+  .button-low h4 a {
+    color: rgb(228, 228, 228);
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    padding: 1% 5%;
+    font-family: 300;
+  }
+
+  header nav .logo a {
+    text-transform: uppercase;
+    color: #464646;
+  }
+
+  .bottoms-button button i {
+    color: #ff4925;
+    font-weight: bold;
+    margin-left: 1%;
+    font-size: 19px;
+  }
+
+  header nav .logo i {
+    display: none;
+  }
+
+  .card-img img {
+    height: 50px;
+    width: 50px;
+  }
+
+  header nav .logo img {
+    display: block;
+    height: 40px;
+    float: right;
+    width: 40px;
+    margin-top: 0;
+  }
+
+  nav .ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    float: right;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    left: auto;
+    align-items: center;
+    height: auto;
+    transition: 1s ease;
+  }
+
+  nav .ul .fa-times {
+    display: none;
+    float: right;
+    margin-right: 20px;
+    font-size: 40px;
+    color: white;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  ul li {
+    margin-top: 0;
+    font-size: 16px;
+    margin-left: 5%;
+    width: auto;
+    font-weight: lighter;
+    padding-bottom: 0;
+    border: none;
+    text-align: center;
+  }
+
+  ul li a:hover {
+    color: #ff4925;
+  }
+
+  .left-button {
+    display: block;
+    position: absolute;
+    left: 70%;
+    border: 3px solid orangered;
+    padding: 2px 5px;
+    top: 10px;
+  }
+
+  .tito {
+    display: block;
+  }
+
+  .active {
+    color: orangered;
+  }
+
+  /* style the introduction section */
+  main {
+    margin-top: 4%;
+    height: auto;
+    display: flex;
+    background-color: rgba(235, 235, 235, 0.849);
+    flex-direction: column;
+    padding: 5% 10%;
+  }
+
+  main .main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  main .main-content .main-first-p {
+    color: orangered;
+    font-size: 160%;
+    text-transform: capitalize;
+  }
+
+  main .main-content h1 {
+    color: orangered;
+    margin-bottom: 2%;
+    font-size: 55px;
+    width: 70%;
+  }
+
+  main .main-content .main-second-p {
+    box-shadow: 2px 0 4px 2px white;
+    font-size: 90%;
+    padding: 1%;
+    width: 50%;
+    margin-bottom: 2%;
+  }
+
+  main .main-content .main-date {
+    font-weight: 900;
+    font-size: 200%;
+  }
+
+  main .main-content .main-address {
+    font-size: 100%;
+    margin-bottom: 15%;
+  }
+
+  /* end introduction section  style */
+
+  /* style the programs section */
+  #content1 {
+    background-image: url('pattern_bg.png');
+    background-repeat: repeat;
+    background-color: rgb(24, 23, 23);
+    padding: 2% 10%;
+  }
+
+  footer .liner {
+    display: flex;
+    padding-top: 2%;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    height: auto;
+    align-items: center;
+    text-transform: capitalize;
+  }
+
+  #content1 .liner {
+    display: flex;
+    flex-direction: column;
+    color: rgb(211, 210, 210);
+    text-align: center;
+    height: auto;
+    align-items: center;
+    text-transform: capitalize;
+  }
+
+  footer .liner h3 {
+    font-size: 16px;
+    margin-bottom: 0%;
+    font-weight: 300;
+  }
+
+  #content1 .liner h3 {
+    font-size: 16px;
+    margin-bottom: 0%;
+    font-weight: 300;
+  }
+
+  footer .liner .line-one {
+    height: 2px;
+    background-color: rgb(194, 54, 4);
+    width: 2%;
+  }
+
+  #content1 .liner .line-one {
+    height: 2px;
+    background-color: rgb(194, 54, 4);
+    width: 10%;
+    margin-bottom: 3%;
+  }
+
+  .contain-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+  }
+
+  .contain-wrapper .card {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    background-color: rgba(105, 104, 104, 0.685);
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 3px;
+    padding: 3% 2%;
+  }
+
+  .wrapper-2 .card {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    margin-top: 4%;
+  }
+
+  .contain-wrapper .card:hover {
+    border: 2px solid rgb(221, 221, 221);
+  }
+
+  .card-title {
+    color: rgb(233, 65, 4);
+    font-weight: bolder;
+    font-size: 110%;
+    font-family: 'Poppins', sans-serif;
+    padding: 2%;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .card-description {
+    padding-left: 2%;
+    font-size: 80%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(252, 252, 252, 0.829);
+  }
+
+  .button-low {
+    margin-top: 5%;
+    padding: 2%;
+    margin-bottom: 4%;
+  }
+
+  .button-low a:hover {
+    color: #ff4925;
+    border-bottom: 2px solid orangered;
+  }
+
+  .button-low h4 {
+    text-align: center;
+  }
+
+  /* end program section style */
+
+  /* style featured program section */
+  #content2 {
+    padding: 4%;
+    background-color:#d3d3d3;
+  }
+
+  #content2 .liner {
+    display: flex;
+    flex-direction: column;
+    color: rgb(22, 22, 22);
+    text-align: center;
+    height: auto;
+    align-items: center;
+    text-transform: capitalize;
+  }
+
+  #content2 .liner h3 {
+    font-size: 16px;
+    margin-bottom: 0.5%;
+    font-weight: 300;
+  }
+
+  #content2 .liner .line-one {
+    height: 2px;
+    background-color: rgb(194, 54, 4);
+    width: 3%;
+    margin: 0%;
+  }
+
+  .wrapper-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .wrapper-2 .card .guide-image {
+    width: 30%;
+    height: inherit;
+    padding: 2%;
+  }
+
+  .wrapper-2 .card .guide-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .wrapper-2 .guide-details {
+    width: 70%;
+  }
+
+  .wrapper-2 .guide-details h4 {
+    font-size: 15px;
+  }
+
+  .wrapper-2 .guide-details span {
+    color: #ff4925;
+    font-size: 13px;
+  }
+
+  .wrapper-2 .guide-details .mine-act {
+    font-size: 12px;
+    margin-top: 2%;
+  }
+
+  .guide-details .line-two {
+    margin-top: 3px;
+    overflow: hidden;
+    height: 2px;
+    width: 7%;
+    color: rgb(174, 174, 174);
+    background-color: rgb(176, 176, 176);
+  }
+
+  .bottoms-button {
+    display: none;
+    margin-top: 15%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+  }
+
+  .bottoms-button button {
+    width: 100%;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 2% 5%;
+    text-transform: capitalize;
+    font-size: 17px;
+  }
+
+  /* end featured programs style */
+
+  /* footer styling */
+  footer {
+    display: block;
+    background-color: rgb(212, 207, 207);
+  }
+
+  .wrap {
+    background-color: rgba(15, 15, 15, 0.705);
+  }
+
+  .footer-wrapper {
+    margin-top: 0%;
+    padding: 4%;
+    display: flex;
+    background-color:#f1f1f1;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .wrap .liner h3 {
+    font-size: 25px;
+    margin-bottom: 0.5%;
+    font-weight: 300;
+    color: rgb(172, 170, 170);
+  }
+  .footer-partners{
+    padding:0% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}.footer-partners img{
+    width:90%;
+}
+  .footer-wrapper .copyright {
+    display: flex;
+    text-align: left;
+    align-content: center;
+    color: rgb(51, 51, 51);
+    flex-direction: row;
+  }
+
+  .footer-wrapper .copyright p {
+    padding: 2%;
+  }
+
+  .footer-wrapper .copyright .rights {
+    font-size: 16px;
+  }
+
+  .footer-wrapper .copyright .at {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+  }
+
+  /* end footer styling */
+}
