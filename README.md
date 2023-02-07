@@ -45,6 +45,11 @@
 
 **[Capstone]** is an ongoing project based on an a real work environment project you may be asked to work on.
 
+
+## 📝 License <a name="license"></a>
+<p>Watch me explain more about this project <a href="https://youtu.be/E80hmDbss8A">Here</a></p>
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -212,8 +217,6 @@ I would like to thank...
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-<p>see license here <a href="/LICENSE.md">license</a></p>
+<p>This project is <a href="/LICENSE.md">MIT</a> licensed</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
