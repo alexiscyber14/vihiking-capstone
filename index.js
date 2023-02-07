@@ -33,6 +33,7 @@ const guides = [
         skills:"Free fall world record holder since 2015",
         description:"Aero performer and free fall legend, I promise to make i the best experience ever.",
         image:'ladies.avif',
+        
       },
       {
         id: 4,
@@ -48,24 +49,22 @@ const guides = [
         description:"Vistit the amazonas with expert guidance of myself and my team. ",
         image:'nicki.webp',
       },
+      {
+        id: 6,
+        name:"cheng Ho",
+        skills:"Certiied and skilled jungle guide of the amazonas.",
+        description:"Vistit the amazonas with expert guidance of myself and my team. ",
+        image:'mathew maccon.jpg',
+      },
   ];
-  const contain = document.querySelector('.content2');
-
-  const cardSectionHed = document.createElement('h3');
-  cardSectionHed.className ='main-program varn';
-  cardSectionHed.innerHTML = "main activities"
-   contain.appendChild(cardSectionHed)
-  const cardSectionPara = document.createElement('p');
-  cardSectionPara.className='line-one'
-  contain.appendChild(cardSectionPara)
-
-console.log(contain)
+  const contain = document.querySelector('.wrapper-2');
   guides.forEach((guide) => {
     const card = document.createElement('div');
     card.className = 'card';
     contain.appendChild(card);
 
     const guideImageDiv = document.createElement('div');
+    guideImageDiv.className='guide-image'
     const guideImage = document.createElement('img');
     guideImage.src = guide.image;
     guideImageDiv.appendChild(guideImage)
@@ -101,6 +100,22 @@ console.log(contain)
   footerButton.className ='show-more'
   footerButton.innerHTML ='more<i class="fa fa-angle-down"></i>'
   cardSectionButton.appendChild(footerButton)
-
-
   contain.appendChild(cardSectionButton)
+
+  //show more button
+
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
