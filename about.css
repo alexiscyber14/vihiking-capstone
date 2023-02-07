@@ -37,6 +37,10 @@ li {
   font-family: 'Poppns', sans-serif;
 }
 
+.tito {
+  display: none;
+}
+
 header {
   top: 0;
   background-color: rgba(235, 235, 235, 0.849);
@@ -48,8 +52,8 @@ header nav {
 }
 
 .card-img img {
-  height: 50px;
-  width: 50px;
+  width: 100%;
+  height: 80px;
 }
 
 header nav .logo img {
@@ -116,7 +120,7 @@ ul li a {
 main {
   height: auto;
   display: flex;
-  background-color: rgba(235, 235, 235, 0.849);
+  background-color: rgba(235, 235, 235, 0.925);
   flex-direction: column;
   padding: 5%;
 }
@@ -127,31 +131,39 @@ main .main-content {
 }
 
 main .main-content .main-first-p {
+  text-align: center;
   color: orangered;
 }
 
 main .main-content h1 {
   color: orangered;
+  text-align: center;
   margin-bottom: 2%;
 }
 
-.tito {
-  display: none;
-}
-
 main .main-content .main-second-p {
-  box-shadow: 2px 0 4px 2px white;
-  font-size: 70%;
-  padding: 2%;
+  box-shadow: none;
+  border: 1px solid grey;
+  border-radius: var(--main-rafius);
+  font-size: 90%;
+  padding: 5%;
+  margin-top: 4%;
   margin-bottom: 2%;
 }
 
 main .main-content .main-date {
-  font-weight: 900;
+  font-weight: lighter;
+  font-size: 13px;
+  text-align: center;
 }
 
 main .main-content .main-address {
-  font-size: 70%;
+  font-weight: 900;
+  text-align: center;
+  font-size: 13px;
+  width: 50%;
+  margin-left: 24%;
+  border-bottom: 2px solid grey;
   margin-bottom: 15%;
 }
 
@@ -159,9 +171,7 @@ main .main-content .main-address {
 
 /* style the programs section */
 #content1 {
-  background-image: url('pattern_bg.png');
-  background-repeat: repeat;
-  background-color: rgb(24, 23, 23);
+  background-color: rgb(255, 255, 255);
   padding: 4%;
 }
 
@@ -193,9 +203,25 @@ footer .liner h3 {
 }
 
 #content1 .liner h3 {
-  font-size: 16px;
-  margin-bottom: 2%;
+  font-size: 24px;
+  padding: 0% 5%;
+  margin-bottom: 0%;
+  color: black;
   font-weight: 300;
+}
+
+#content1 .liner .full {
+  font-size: 13px;
+  padding: 0% 6%;
+  color: black;
+  font-weight: 200;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+.reden {
+  display: none;
 }
 
 footer .liner .line-one {
@@ -208,6 +234,7 @@ footer .liner .line-one {
   height: 2px;
   background-color: rgb(194, 54, 4);
   width: 10%;
+  margin-bottom: 5%;
 }
 
 .contain-wrapper {
@@ -220,10 +247,58 @@ footer .liner .line-one {
   display: flex;
   flex-direction: row;
   height: auto;
-  background-color: rgba(105, 104, 104, 0.685);
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0);
   align-items: center;
   margin-top: 2%;
   padding: 5% 2%;
+  border: 1px solid grey;
+  border-radius: var(--main-rafius);
+}
+
+.contain-wrapper .varmin {
+  display: flex;
+  background-image: url('mathew\ maccon.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  height: auto;
+  width: 80%;
+  align-items: center;
+  margin-top: 3%;
+  padding: 0% 0%;
+  border: 1px solid grey;
+  border-radius: 0;
+}
+
+.month {
+  width: 100%;
+  padding: 20% 0%;
+  background-color: rgba(219, 10, 10, 0.829);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.varmin h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.varmin p {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-img {
+  width: 100%;
 }
 
 .card-title {
@@ -485,9 +560,8 @@ footer {
 
   .button-low h4 a {
     color: rgb(228, 228, 228);
-    background-color: transparent;
-    border-bottom: 2px solid white;
-    padding: 1% 5%;
+    background-color: #ff4925;
+    padding: 7% 5%;
     font-family: 300;
   }
 
@@ -508,8 +582,8 @@ footer {
   }
 
   .card-img img {
-    height: 50px;
-    width: 50px;
+    width: 100%;
+    height: 120px;
   }
 
   header nav .logo img {
@@ -541,6 +615,10 @@ footer {
     margin-right: 20px;
     font-size: 40px;
     color: white;
+  }
+
+  .tito {
+    display: block;
   }
 
   ul {
@@ -575,22 +653,17 @@ footer {
     top: 10px;
   }
 
-  .tito {
-    display: block;
-  }
-
   .active {
     color: orangered;
   }
 
   /* style the introduction section */
   main {
-    margin-top: 4%;
     height: auto;
     display: flex;
-    background-color: rgba(235, 235, 235, 0.849);
+    background-color: rgba(235, 235, 235, 0.925);
     flex-direction: column;
-    padding: 5% 10%;
+    padding: 10% 20%;
   }
 
   main .main-content {
@@ -599,33 +672,42 @@ footer {
   }
 
   main .main-content .main-first-p {
+    text-align: center;
     color: orangered;
-    font-size: 160%;
-    text-transform: capitalize;
+    font-size: 25px;
   }
 
   main .main-content h1 {
     color: orangered;
+    text-align: center;
     margin-bottom: 2%;
-    font-size: 55px;
-    width: 70%;
+    font-size: 50px;
   }
 
   main .main-content .main-second-p {
-    box-shadow: 2px 0 4px 2px white;
-    font-size: 90%;
-    padding: 1%;
-    width: 50%;
-    margin-bottom: 2%;
+    box-shadow: none;
+    border: 1px solid grey;
+    border-radius: var(--main-rafius);
+    font-size: 100%;
+    padding: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
   }
 
   main .main-content .main-date {
-    font-weight: 900;
-    font-size: 200%;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
   }
 
   main .main-content .main-address {
-    font-size: 100%;
+    font-weight: 900;
+    text-align: center;
+    font-size: 14px;
+    width: 30%;
+    margin-left: 34%;
+    margin-top: 2%;
+    border-bottom: 2px solid grey;
     margin-bottom: 15%;
   }
 
@@ -633,10 +715,8 @@ footer {
 
   /* style the programs section */
   #content1 {
-    background-image: url('pattern_bg.png');
-    background-repeat: repeat;
-    background-color: rgb(24, 23, 23);
-    padding: 2% 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 0% 17%;
   }
 
   footer .liner {
@@ -667,9 +747,25 @@ footer {
   }
 
   #content1 .liner h3 {
-    font-size: 16px;
+    font-size: 24px;
+    padding: 0% 5%;
     margin-bottom: 0%;
+    color: black;
     font-weight: 300;
+  }
+
+  #content1 .liner .full {
+    font-size: 16px;
+    padding: 0% 6%;
+    color: black;
+    font-weight: 200;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 5%;
+  }
+
+  .reden {
+    display: block;
   }
 
   footer .liner .line-one {
@@ -682,36 +778,99 @@ footer {
     height: 2px;
     background-color: rgb(194, 54, 4);
     width: 10%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
   }
 
   .contain-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+  }
+
+  .contain-wrappers {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .contain-wrappers .card {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    margin-top: 3%;
+    padding: 5% 2%;
+    border: 1px solid grey;
+    border-radius: var(--main-rafius);
+  }
+
+  .fai {
+    margin-bottom: 10%;
+  }
+
+  .lint {
+    padding-top: 10%;
   }
 
   .contain-wrapper .card {
     display: flex;
-    flex-direction: column;
-    height: 230px;
-    background-color: rgba(105, 104, 104, 0.685);
-    align-items: center;
-    margin-top: 2%;
-    margin-left: 3px;
-    padding: 3% 2%;
-  }
-
-  .wrapper-2 .card {
-    display: flex;
     flex-direction: row;
     height: auto;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0);
     align-items: center;
-    margin-top: 4%;
+    margin-top: 2%;
+    padding: 5% 2%;
+    border: 1px solid grey;
+    border-radius: var(--main-rafius);
   }
 
-  .contain-wrapper .card:hover {
-    border: 2px solid rgb(221, 221, 221);
+  .contain-wrapper .varmin {
+    display: flex;
+    margin-bottom: 15%;
+    background-image: url('mathew\ maccon.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    height: auto;
+    width: 95%;
+    align-items: center;
+    margin-top: 3%;
+    padding: 0% 0%;
+    border: 1px solid grey;
+    border-radius: 0;
+  }
+
+  .month {
+    width: 100%;
+    padding: 20% 0%;
+    background-color: rgba(219, 10, 10, 0.829);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .varmin h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .varmin p {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .card-img {
+    width: 100%;
   }
 
   .card-title {
@@ -721,8 +880,6 @@ footer {
     font-family: 'Poppins', sans-serif;
     padding: 2%;
     width: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
     text-align: center;
     text-transform: capitalize;
   }
@@ -730,20 +887,14 @@ footer {
   .card-description {
     padding-left: 2%;
     font-size: 80%;
-    text-align: center;
+    text-align: left;
     font-family: 'Poppins', sans-serif;
     color: rgba(252, 252, 252, 0.829);
   }
 
   .button-low {
     margin-top: 5%;
-    padding: 2%;
-    margin-bottom: 4%;
-  }
-
-  .button-low a:hover {
-    color: #ff4925;
-    border-bottom: 2px solid orangered;
+    padding: 5%;
   }
 
   .button-low h4 {
@@ -781,9 +932,17 @@ footer {
   }
 
   .wrapper-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+  }
+
+  .wrapper-2 .card {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    margin-top: 4%;
   }
 
   .wrapper-2 .card .guide-image {
@@ -825,7 +984,7 @@ footer {
   }
 
   .bottoms-button {
-    display: none;
+    display: flex;
     margin-top: 15%;
     flex-direction: column;
     align-items: center;
